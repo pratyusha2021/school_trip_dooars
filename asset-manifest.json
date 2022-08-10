@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/school_trip_dooars/static/css/main.a4afbee0.css",
+    "main.js": "/school_trip_dooars/static/js/main.611668d7.js",
+    "index.html": "/school_trip_dooars/index.html",
+    "main.a4afbee0.css.map": "/school_trip_dooars/static/css/main.a4afbee0.css.map",
+    "main.611668d7.js.map": "/school_trip_dooars/static/js/main.611668d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4afbee0.css",
+    "static/js/main.611668d7.js"
+  ]
+}
