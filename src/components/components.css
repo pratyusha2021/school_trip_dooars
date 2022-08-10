@@ -1,0 +1,188 @@
+.head{
+    background-color:#ffffff ;
+    display: flex;
+    width: 100vw;
+    height: 16vh;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 13vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.logo{
+    color:rgb(96, 114, 4);
+    font-size: 28px;
+    font-weight: bold;
+}
+.navbar .links a{
+    font-size: 19px;
+    color: rgba(19, 1, 1, 0.55);
+    font-weight: bold;
+    margin-left: 25px;
+}
+.navbar .links a:hover{
+    color: rgba(0, 0, 0,0.75);
+}
+
+
+
+
+.registerbtn{
+    height: 8vh;
+    width: 14vw;
+    padding:2px 2px ;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-left: 20px;
+    text-align:center ;
+    transition: background 680ms,color 680ms,border 680ms;
+    color: rgb(96, 114, 4);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.registerbtn:hover {
+    background-color: rgba(21, 26, 3, 0.9);
+    color: rgb(192, 228, 168);
+}
+
+
+@media screen and (max-width:1000px){
+    .navbar{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+    }
+    .registerbtn{
+        height: 7vh;
+        width: 20vw;
+    }
+
+}
+@media screen and (max-width:720px){
+    .navbar{
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        display: flex;
+    }
+    .registerbtn{
+        height: 60px;
+        width: 20vw;
+    }
+    .navbar .links a{
+      display: flex;
+    }
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    margin: 0 0;
+    padding: 0;
+  }
+  
+  .slide div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide span{
+    font-size: 40px;
+    color: rgb(14, 14, 14);
+    background: rgba(193, 203, 218, 0.45);
+    box-shadow: 0 0 100px rgb(196, 189, 189);
+    font-weight: bold;
+    text-align: center;
+    z-index: 11;
+    padding: 5px;
+  }
+
+.dooarsimg{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+
+.planning{
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+
+.days{
+    font-size: large;
+
+}
+.days span{
+    font-weight: 750;
+    color:rgb(96, 114, 4) ;
+}
+
+
+.btn{
+    display: flex;
+}
+.btneditdelete{
+    display: flex;
+    margin-bottom: 0%;
+    font-size: large;
+}
+.editbtn, .delbtn{
+    padding: 13px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-left: 30px;
+    text-align:center ;
+    color: rgb(96, 114, 4);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tablehead{
+    background-color: rgb(110, 118, 70);
+    color: #ffffff;
+ }
+ .tablebody{
+    background-color: rgb(198, 210, 139);
+}
+
+
+
+.foot{
+    font-weight: 750;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.foot label{
+    color:rgb(8, 8, 7) ; 
+    font-weight: 450;
+}
