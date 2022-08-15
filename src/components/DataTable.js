@@ -47,7 +47,7 @@ export default function DataTable() {
 
   const handleeditClose = async (update) => {
     if(update){
-      let response = await updateData(registeredstudents); 
+      await updateData(registeredstudents); 
       window.location.reload(false);
     }
     setOpenedit(false);
@@ -56,7 +56,7 @@ export default function DataTable() {
 
   const handledeleteClose = async (deletion) => {
     if(deletion){
-      let resp = await deleteData(registeredstudents.sl_no);
+      await deleteData(registeredstudents.sl_no);
       window.location.reload(false);
     }
     setOpendelete(false);
